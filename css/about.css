@@ -1,0 +1,636 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-size:62.5%;
+    overflow-x : hidden;
+    overflow-y : auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6F2E8;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+header {
+    margin-left: 145px;
+    display: flex;
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    text-align: center;
+    color: #466A55;
+    text-decoration: none;
+}
+
+header .portfolio {
+    font-size: 4rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-bottom: 0;
+}
+
+header .name {
+    font-size: 2rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-top: 0;
+}
+
+.menu {
+    position: fixed;
+    writing-mode: vertical-rl;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    margin-top: 0;
+    right: 30px;
+    top: 130px
+}
+
+.menu li {
+    color: #466A55;
+    font-size: 2rem;
+    font-family: Ayuthaya;
+    list-style:none;
+}
+
+.menu li a {
+    color: #466A55;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #BF5858;
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+main {
+    margin-top: 50px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #4C7158;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-image : linear-gradient(to right, #4C7158 15px, transparent 0px);
+    background-size: 34px 2px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+main .container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+main .profile {
+    border-radius: 49vh 260vh 105vh 164vh / 37vh 104vh 66vh 146vh;
+    background-color: #fff;
+    width: 73vh;
+    display: flex;
+    margin-top: 50px;
+}
+
+main .profile1 {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #466A55;
+    line-height: 3;
+    text-align: center;
+    margin-top: 0;
+} 
+
+main .profile .detail1 {
+    margin: 0 5% 5% 5%;
+}
+
+main .profile2 {
+    font-size: 3rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+}
+
+main .profile3 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+    line-height: 1.5;
+}
+
+main .goal {
+    border-radius: 220vh 209vh 80vh 257vh / 142vh 131vh 135vh 133vh;
+    background-color: #fff;
+    width: 99vh;
+    display: flex;
+    margin: 50px 0 0 auto;
+}
+
+main .goal1 {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    width: 400px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #BF5858;
+    line-height: 3;
+    text-align: center;
+    margin-top: 0;
+}
+
+main .goal .detail2 {
+    margin: 0 5% 5% 5%;
+}
+
+main .goal2 {
+    font-size: 3rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    line-height: 1.5;
+}
+
+main .goal3 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+    line-height: 1.5;
+}
+
+main .skill1 {
+    border-radius: 30vh 102vh 57vh 81vh / 33vh 51vh 36vh 64vh;
+    background-color: #fff;
+    width: 96vh;
+    display: flex;
+    margin-top: 50px;
+}
+
+main .skill1-1 {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    width: 160px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #466A55;
+    line-height: 3;
+    text-align: center;
+    margin-top: 0;
+}
+
+main .skill1 .detail3 {
+    margin: 0 5% 10% 5%;
+}
+
+main .skill1-2 {
+    font-size: 3rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+}
+
+main .skill1-3 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+    line-height: 1.5;
+}
+
+main .skill1-3 .photoshop {
+    color: #466A55;
+}
+
+main .skill1-4 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+    line-height: 1.5;
+}
+
+main .skill1-4 .illustrator {
+    font-size: 1.7rem;
+    color: #466A55;
+    line-height: 1.5;
+}
+
+main .skill1-5 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+    line-height: 1.5;
+}
+
+main .skill1-5 .xd {
+    font-size: 1.7rem;
+    color: #466A55;
+}
+
+main .skill2 {
+    border-radius: 30vh 70vh 35vh 65vh / 50vh 50vh 50vh 50vh;
+    background-color: #fff;
+    width: 88vh;
+    display: flex;
+    margin: 50px 0 0 auto;
+}
+
+main .skill2-1 {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    width: 160px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #466A55;
+    line-height: 3;
+    text-align: center;
+    margin-top: 0;
+}
+
+main .skill2 .detail4 {
+    margin: 0 5% 5% 5%;
+}
+
+main .skill2-2 {
+    font-size: 3rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+}
+
+main .skill2-3 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+}
+
+main .skill2-3 .html {
+    color: #466A55;
+}
+
+main .skill2-4 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+}
+
+main .skill2-4 .css {
+    color: #466A55;
+}
+
+main .skill2-5 {
+    font-size: 1.7rem;
+    font-family: Ayuthaya;
+    color: #000;
+}
+
+main .skill2-5 .javascript {
+    color: #466A55;
+}
+
+footer {
+    height: 120px;
+    background-color: #466A55;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer_portfolio p{
+    font-size: 4rem;
+    color: #fff;
+    font-family: Ayuthaya;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer img {
+    width: 32px;
+    height: 34px;
+}
+
+footer p {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    margin-top: 11px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    header {
+        margin-left: 30px;
+    }
+    
+    header .portfolio {
+        font-size: 3rem;
+    }
+    
+    header .name {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburgermenu {
+        display: block;
+    }
+    
+    .hamburger {
+        cursor: pointer;
+        background-color: #466A55;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        right: 30px;
+        top: 30px;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .hamburger.active {
+        background-color: #fff;
+    }
+
+    .hamburger span {
+        position: absolute;
+        background-color: #fff;
+        display: inline-block;
+        transition: all .3s;
+        height: 2px;
+        width: 50%;
+        display: inline-block;
+        left: 13px;
+    }
+
+    .hamburger span:nth-of-type(1) {
+        top:15px;	
+    }
+    
+    .hamburger span:nth-of-type(2) {
+        top:23px;
+    }
+    
+    .hamburger span:nth-of-type(3) {
+        top:31px;
+    }
+    
+    .hamburger.active span:nth-of-type(1) {
+        top: 18px;
+        transform: translateY(6px) rotate(-45deg);
+        width: 50%;
+        background-color: #466A55;
+    }
+    
+    .hamburger.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-of-type(3){
+        top: 30px;
+        transform: translateY(-6px) rotate(45deg);
+        width: 50%;
+        background-color: #466A55;
+    }
+
+    #nav {
+        position: fixed;
+        background-color: #466A55;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.3s;
+        z-index: -1;
+        right: -120%;
+    }
+
+    #nav.active {
+        right: 0;
+        z-index: 10; 
+    }
+
+    .humburger_list {
+        text-align: center;
+        margin-top: 200px;
+        padding-left: 0;
+    }
+
+    .humburger_list li {
+        list-style: none;
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .humburger_list li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .humburger_list li a:hover {
+        text-decoration: underline;
+        text-decoration-color: #fff;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    main .container {
+        margin-left: 10px;
+    }
+    
+    main h2 {
+        font-size: 3rem;
+        background-size: 23px 2px;
+        padding-bottom: 10px;
+    }
+
+    main .profile {
+        border-radius: 32vh 49vh 9vh 37vh / 20vh 23vh 12vh 16vh;
+        width: 51vh;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    
+    main .profile1 {
+        font-size: 1.7rem;
+        width: 70px;
+        height: 45px;
+        line-height: 2.5;
+        margin-bottom: 0;
+    } 
+    
+    main .profile .detail1 {
+        margin: 0 0 0 10px;
+    }
+    
+    main .profile2 {
+        font-size: 1.7rem;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    main .profile3 {
+        font-size: 1.2rem;
+    }
+    
+    main .goal {
+        border-radius: 47vh 47ch 47vh 60vh / 45vh 35vh 58vh 62vh;
+        width: 51vh;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    main .goal1 {
+        font-size: 1.7rem;
+        width: 265px;
+        height: 45px;
+        line-height: 2.5;
+    }
+    
+    main .goal .detail2 {
+        margin: 0 25px 30px 10px;
+    }
+    
+    main .goal2 {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+    
+    main .goal3 {
+        font-size: 1.2rem;
+    }
+    
+    main .skill1 {
+        border-radius: 47vh 67vh 79vh 54vh / 40vh 65vh 52vh 89vh;
+        margin-top: 30px;
+        margin-left: 0;
+        width: 50vh;
+    }
+    
+    main .skill1-1 {
+        font-size: 1.7rem;
+        width: 90px;
+        height: 45px;
+        line-height: 2.5;
+    }
+    
+    main .skill1 .detail3 {
+        margin: 0 50px 30px 10px;
+    }
+    
+    main .skill1-2 {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+    
+    main .skill1-3 {
+        font-size: 1.2rem;
+    }
+
+    main .skill1-4 {
+        font-size: 1.2rem;
+    }
+    
+    main .skill1-4 .illustrator {
+        font-size: 1.2rem;
+    }
+    
+    main .skill1-5 {
+        font-size: 1.2rem;
+    }
+    
+    main .skill1-5 .xd {
+        font-size: 1.2rem;
+    }
+    
+    main .skill2 {
+        border-radius: 30vh 70vh 35vh 65vh / 50vh 50vh 35vh 50vh;
+        margin-top: 30px;
+        width: 51vh;
+        margin-left: 0;
+    }
+    
+    main .skill2-1 {
+        font-size: 1.7rem;
+        width: 70px;
+        height: 45px;
+        line-height: 2.5;
+    }
+    
+    main .skill2 .detail4 {
+        margin: 0 35px 45px 10px;
+    }
+    
+    main .skill2-2 {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+    
+    main .skill2-3 {
+        font-size: 1.2rem;
+    }
+
+    main .skill2-4 {
+        font-size: 1.2rem;
+    }
+
+    main .skill2-5 {
+        font-size: 1.2rem;
+    }
+    
+    main .skill2-5 .javascript {
+        color: #466A55;
+    }
+    
+    footer {
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    footer .footer_portfolio p{
+        font-size: 2rem;
+    }
+
+    footer img {
+        width: 20px;
+        height: 21px;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+}

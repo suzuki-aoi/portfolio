@@ -1,0 +1,399 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-size:62.5%;
+    overflow-x : hidden;
+    overflow-y : auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6F2E8;
+}
+
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+}
+
+header {
+    margin-left: 100px;
+    display: flex;
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    text-align: center;
+    color: #466A55;
+    text-decoration: none;
+}
+
+header .portfolio {
+    font-size: 4rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-bottom: 0;
+}
+
+header .name {
+    font-size: 2rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-top: 0;
+}
+
+.menu {
+    position: fixed;
+    writing-mode: vertical-rl;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    margin-top: 0;
+    right: 30px;
+    top: 130px
+}
+
+.menu li {
+    color: #466A55;
+    font-size: 2rem;
+    font-family: Ayuthaya;
+    list-style:none;
+}
+
+.menu li a {
+    color: #466A55;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #BF5858;
+}
+
+.hamburgermenu {
+    display: none;
+}
+
+main {
+    margin-top: 50px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #4C7158;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-image : linear-gradient(to right, #4C7158 15px, transparent 0px);
+    background-size: 34px 2px;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+main .banner {
+    text-align: center;
+    font-size: 3rem;
+    color: #4C7158;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0;
+    padding-top: 20px;
+}
+
+main .container {
+    margin-top: 50px;
+}
+
+main .container_bannar1 {
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main .container_bannar1 a {
+    width: calc((100%/3) - 20px);
+    margin-bottom: 30px;
+}
+
+main .container_bannar1 a:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+main .container_bannar1 .img1 {
+    width: 100%;
+    height: auto;
+}
+
+main .container_bannar2 {
+    margin-top: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main .container_bannar2 a {
+    width: calc((100%/2) - 15px);
+    margin-bottom: 30px;
+}
+
+main .container_bannar2 a:not(:nth-child(2n)){
+    margin-right: 30px;
+}
+
+main .container_bannar2 .img2{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    height: 120px;
+    background-color: #466A55;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer_portfolio p{
+    font-size: 4rem;
+    color: #fff;
+    font-family: Ayuthaya;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer img {
+    width: 32px;
+    height: 34px;
+}
+
+footer p {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    margin-top: 11px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px){
+    
+    main .container_bannar1 a {
+        width: calc((100%/2) - 30px);
+        margin-bottom: 30px;
+    }
+    
+    main .container_bannar1 a:not(:nth-child(2n)){
+        margin-right: 30px;
+    }
+    
+    main .container_bannar2 a {
+        width: calc((100%/2) - 30px);
+        margin-bottom: 30px;
+    }
+    
+    main .container_bannar2 a:not(:nth-child(2n)){
+        margin-right: 30px;
+    }
+    
+    main .container_bannar2 .img2{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    header {
+        margin-left: 30px;
+    }
+    
+    header .portfolio {
+        font-size: 3rem;
+    }
+    
+    header .name {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .hamburgermenu {
+        display: block;
+    }
+    
+    .hamburger {
+        cursor: pointer;
+        background-color: #466A55;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        right: 30px;
+        top: 30px;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .hamburger.active {
+        background-color: #fff;
+    }
+
+    .hamburger span {
+        position: absolute;
+        background-color: #fff;
+        display: inline-block;
+        transition: all .3s;
+        height: 2px;
+        width: 50%;
+        display: inline-block;
+        left: 13px;
+    }
+
+    .hamburger span:nth-of-type(1) {
+        top:15px;	
+    }
+    
+    .hamburger span:nth-of-type(2) {
+        top:23px;
+    }
+    
+    .hamburger span:nth-of-type(3) {
+        top:31px;
+    }
+    
+    .hamburger.active span:nth-of-type(1) {
+        top: 18px;
+        transform: translateY(6px) rotate(-45deg);
+        width: 50%;
+        background-color: #466A55;
+    }
+    
+    .hamburger.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active span:nth-of-type(3){
+        top: 30px;
+        transform: translateY(-6px) rotate(45deg);
+        width: 50%;
+        background-color: #466A55;
+    }
+
+    #nav {
+        position: fixed;
+        background-color: #466A55;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.3s;
+        z-index: -1;
+        right: -120%;
+    }
+
+    #nav.active {
+        right: 0;
+        z-index: 10; 
+    }
+
+    .humburger_list {
+        text-align: center;
+        margin-top: 200px;
+        padding-left: 0;
+    }
+
+    .humburger_list li {
+        list-style: none;
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .humburger_list li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .humburger_list li a:hover {
+        text-decoration: underline;
+        text-decoration-color: #fff;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+    
+    main h2 {
+        font-size: 3rem;
+        background-image : linear-gradient(to right, #4C7158 13px, transparent 0px);
+        background-size: 23px 2px;
+        padding-bottom: 10px;
+    }
+
+    main .banner {
+        font-size: 2.5rem;
+        padding-top: 10px;
+    }
+    
+    main .container {
+        margin-top: 30px;
+    }
+
+    main .container_bannar1 {
+        flex-wrap: nowrap;
+        display: block;
+    }
+    
+    main .container_bannar1 .img1 {
+        margin-bottom: 20px;
+    }
+    
+    main .container_bannar2 {
+        margin-top: 30px;
+        flex-wrap: nowrap;
+        display: block;
+    }
+    
+    main .container_bannar2 .img2 {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    footer .footer_portfolio p{
+        font-size: 2rem;
+    }
+
+    footer img {
+        width: 20px;
+        height: 21px;
+    }
+    
+    footer p {
+        font-size: 1.2rem;
+        margin-top: 0px;
+    }
+}

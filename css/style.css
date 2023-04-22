@@ -1,0 +1,188 @@
+html {
+    width: 100%;
+    font-size:62.5%;
+    overflow-x : hidden;
+    overflow-y : auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6F2E8;
+}
+
+header {
+    text-align: center;
+}
+
+header .portfolio{
+    font-size: 5rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-bottom: 0;
+}
+
+header .name {
+    font-size: 2rem;
+    font-family: Ayuthaya;
+    color: #466A55;
+    margin-top: 0;
+}
+
+main {
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+    gap: 8%; 
+    justify-content: center;
+    align-items: center;
+}
+
+main .apple1 {
+    width: 180px;
+    height: 193px;
+    position: relative;
+}
+
+main .apple1:hover{
+    transform: rotate(-10deg);
+}
+
+.apple1 img {
+    width: 180px;
+    height: 193px;
+}
+
+.apple1 p {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .apple2 {
+    width: 180px;
+    height: 193px;
+    position: relative;
+}
+
+main .apple2:hover{
+    transform: rotate(-10deg);
+}
+
+.apple2 img {
+    width: 180px;
+    height: 193px;
+}
+
+.apple2 div {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.apple2 p {
+    margin: 0;
+}
+
+main .apple3 {
+    width: 180px;
+    height: 193px;
+    position: relative;
+}
+
+main .apple3:hover{
+    transform: rotate(-10deg);
+}
+
+.apple3 img {
+    width: 180px;
+    height: 193px;
+}
+
+.apple3 div {
+    font-size: 3rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap
+}
+
+.apple3 p {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    header .portfolio{
+        font-size: 3rem;
+    }
+    
+    header .name {
+        font-size: 1.5rem;
+    }
+    
+    main {
+        margin-top: 150px;
+    }
+    
+    main .apple1 {
+        width: 90px;
+        height: 96px;
+    }
+
+    .apple1 img {
+        width: 90px;
+        height: 96px;
+    }
+    
+    .apple1 p {
+        font-size: 2rem;
+        top: 40%;
+    }
+    
+    main .apple2 {
+        width: 90px;
+        height: 96px;
+    }
+
+    .apple2 img {
+        width: 90px;
+        height: 96px;
+    }
+    
+    .apple2 div {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    main .apple3 {
+        width: 90px;
+        height: 96px;
+    }
+
+    .apple3 img {
+        width: 90px;
+        height: 96px;
+    }
+    
+    .apple3 div {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+}
