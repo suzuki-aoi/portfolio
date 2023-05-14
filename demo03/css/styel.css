@@ -426,11 +426,13 @@ body {
 @media screen and (max-width: 1199px) and (min-width: 768px){
     .ranking_img_inner {
         width: calc((100%/3) - 30px);
+	margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 768px) {
     .ranking_img_inner {
         width: calc((100%/2) - 10px);
+	margin-bottom: 20px;
     }
 }
 
@@ -440,11 +442,13 @@ body {
 @media screen and (max-width: 1199px) and (min-width: 768px){
     .ranking_img_inner:not(:nth-child(3n)){
         margin-right: 45px;
+	margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 768px) {
     .ranking_img_inner:not(:nth-child(2n)){
         margin-right: 20px;
+	margin-bottom: 20px;
     }
 }
 
