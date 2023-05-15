@@ -122,10 +122,12 @@ main .container {
 
 main .container_site {
     width: calc((100%/2) - 15px);
+    margin-bottom: 30px;
 }
 
 main .container_site:not(:nth-child(2n)){
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 main .container .container_site img {
